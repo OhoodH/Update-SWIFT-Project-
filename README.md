@@ -1,3 +1,4 @@
+![photo_2024-04-25_11-46-59](https://github.com/OhoodH/Update-SWIFT.SAT-Propagation-and-Blockchain/assets/159652185/9f37343e-27e6-4d75-9037-52f55b8877fe)
 
 
 # Propagation model 
