@@ -13,10 +13,10 @@ is calculated. The best result for it is that it is less than 100,
 is calculated. The relationship between it and the PL is direct, so that if the PL weakens, the RSS also weakens, and vice versa, as if the PL increases. RSS increases and this means a weak signal
 
 ## Throughput 
-is at its best when it is reduced and represented by this equation
+ the best when it is reduced and represented by this equation
 
 ## Signal to Interference & Noise Ratio (SINR)
-is its best ratio when it is between
+ The best ratio when it is between
   5-19 dB
 
   # BlockChain 
@@ -30,11 +30,12 @@ we use also in blockchain :
 ## IPFS Interplanetary File System,
 For decentralized file storage, which is a decentralized peer-to-peer file sharing and storage network, IPFS uses content processing, which is one of its main characteristics, which means that each file on IPFS is uniquely identified by its content. IPFS is also resistant to Especially data loss because files remain available on other nodes even if the node fails.
 
-# Oil Spill Detection 
-
 
   ## SHA-256 (Secure Hash Code) 
   for data integrity. It is a hashing algorithm that converts data to a string with a length of 256 bits. Its features are fast, cannot be tampered with, and connect blocks together securely.
 Used to create digital signatures
 And password hashing
 And verify data integrity
+
+# Oil Spill Detection 
+
