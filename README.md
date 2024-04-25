@@ -23,10 +23,10 @@ we use also in blockchain :
 
   ## smart contracts:
  for automated enforcement of rules. A smart contract is a self-executing program stored on the blockchain that automates the actions required in an agreement or contract. Smart contracts allow transactions and trusted agreements to be executed between disparate, anonymous parties without the need for a central authority or legal system. Once completed, transactions are traceable and irreversible.
-—————
+
 ## IPFS Interplanetary File System,
 For decentralized file storage, which is a decentralized peer-to-peer file sharing and storage network, IPFS uses content processing, which is one of its main characteristics, which means that each file on IPFS is uniquely identified by its content. IPFS is also resistant to Especially data loss because files remain available on other nodes even if the node fails.
-——-
+
   ## SHA-256 (Secure Hash Code) 
   for data integrity. It is a hashing algorithm that converts data to a string with a length of 256 bits. Its features are fast, cannot be tampered with, and connect blocks together securely.
 Used to create digital signatures
