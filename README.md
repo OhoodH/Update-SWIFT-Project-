@@ -1,6 +1,7 @@
 ![photo_2024-04-25_11-46-59](https://github.com/OhoodH/Update-SWIFT.SAT-Propagation-and-Blockchain/assets/159652185/9f37343e-27e6-4d75-9037-52f55b8877fe)
 # built with SWIFT core team 
  https://github.com/Aside00/saudi-sweft-sat/blob/main/Oill%20spill%20detection%20.ipynb - use OillSpill Detect 
+ https://github.com/saudiswiftsat - use Blockchain technology 
  
 
 # Propagation model 
