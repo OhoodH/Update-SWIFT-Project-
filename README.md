@@ -38,4 +38,51 @@ And password hashing
 And verify data integrity
 
 # Oil Spill Detection 
+We initially adopted YOLOv5  due to its impressive performance and 
+efficiency, which allowed us to achieve accurate and real-time object detection. the continuous evolution of YOLO technology underscored its importance as a driving force in 
+advancing the capabilities of computer vision systems. We progressed to 
+developing our model further and switched to using YOLOv8. This upgrade capitalized on YOLOv5's 
+ability to balance accuracy and speed, making it well-suited for real-time applications, but with enhanced 
+features that improved our system's performance even more
+
+prediction  YOLO follows these steps to predict bounding boxes and class 
+probabilities for objects, in an image:
+1. The input image is resized to a fixed size.
+2. The network performs forward propagation to generate a prediction map.
+3. The prediction map is then decoded to obtain the bounding box positions and class 
+probabilities.
+4. The system filters the bounding boxes by applying a threshold to the score. Then it applies 
+maximum suppression to eliminate any duplicate detections. Only bounding boxes with a 
+score than a certain threshold is considered as valid detections. After filtering and applying 
+maximum suppression, the remaining bounding boxes represent the final detections .
+
+# Evaluation Indicators To measure the performance of the YOLO algorithm :
+• (IOU)
+Intersection over Union: IOU measures the overlap between predicted bounding boxes and ground 
+truth boxes, with scores ranging from 0 to 1. A higher IOU score indicates a better overlap, and a 
+score of 1 indicates a perfect overlap.
+IOU = (Area of intersection) / (Area of union) 
+Area of intersection is the area of the overlap between the predicted and ground truth bounding 
+boxes. Area of union is the area of the union of the predicted and ground truth bounding boxes.
+## (AP)
+Average Precision (AP): AP measures the precision of object detection at various levels of recall. 
+It is computed by calculating the precision and recall values at different IoU thresholds and then 
+averaging them. AP is often reported at different IoU thresholds, such as AP@[0.5:0.95], which 
+represents the average AP across a range of IoU thresholds.
+
+## (mAP)
+Mean Average Precision: mAP is the average of AP values across multiple object classes. It 
+provides an overall performance measure for object detection across different categories. 
+
+## (Precision and Recall)
+Precision and Recall: Precision is the probability of all predicted positive samples among the actual 
+positive samples and is used to measure the prediction accuracy of positive sample results. Recall 
+is the probability of actual positive samples being predicted as positive samples, which indicates 
+the overall prediction accuracy. Both are calculated as follows:
+
+Where: True Positives (TP), False Positives (FP), True Negatives (TN), and False Negatives (FN)
+Precision reflects the ability of the model to discriminate negative samples. The higher the 
+precision, the better the model's ability to discriminate negative samples. Recall reflects the 
+model's ability to identify positive samples. The higher the recall, the better the ability of the model 
+to identify positive samples.
 
