@@ -7,8 +7,7 @@
 # Propagation model 
 Path loss propagation is applied in free space, and the free space path loss (FSPL) model is a theoretical tool in communications used to estimate the amount of attenuation (attenuation) of a radio signal as it travels between two antennas. It assumes an ideal environment with a clear line of sight, making it ideal for scenarios such as satellite communications.
 The FSPL code was created by using the Matlab application, so that the 
-#How to run the code
-To try the code, you can open Matlab and paste it into the editor window, then press the "Run" button or type Ctrl+Enter to execute it.
+
 ## Pathloss 
 is calculated. The best result for it is that it is less than 100,
 ## Received Signal Strength (RSS)
@@ -20,9 +19,10 @@ is calculated. The relationship between it and the PL is direct, so that if the 
 ## Signal to Interference & Noise Ratio (SINR)
  The best ratio when it is between
   5-19 dB
+  # How to run the code
+To try the code, you can open Matlab and paste it into the editor window, then press the "Run" button or type Ctrl+Enter to execute it.
 
   # BlockChain 
-  #How to run the code
   It is to protect data sent from CubeSats to the ground station, with a special focus on detecting oil spills in the oceans.
 We use blockchain technology to store decentralized and tamper-resistant data.
 we use also in blockchain :
@@ -39,6 +39,8 @@ For decentralized file storage, which is a decentralized peer-to-peer file shari
 Used to create digital signatures
 And password hashing
 And verify data integrity
+  # How to run the code
+The Remix IDE was used to write the code, showcasing its versatility and efficiency in developing smart contracts for blockchain applications.
 
 # Oil Spill Detection 
 We initially adopted YOLOv5  due to its impressive performance and 
@@ -89,3 +91,5 @@ precision, the better the model's ability to discriminate negative samples. Reca
 model's ability to identify positive samples. The higher the recall, the better the ability of the model 
 to identify positive samples.
 
+  # How to run the code
+Google Colab application was used to create a detection code for identifying objects in images or videos using machine learning models such as TensorFlow or PyTorch.
